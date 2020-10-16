@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "sourceMap": false,
+    "lib": ["dom", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es2019",
+    "jsx": "react",
+    "strict": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "baseUrl": "./",
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+    "node_modules"
+  ],
+  "compileOnSave": false
+}
+
+
